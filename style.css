@@ -10,6 +10,26 @@ body {
   background-image: linear-gradient(to right top, black, green, red);
   height: 100vh;
   text-align: center;
+  
+}
+.nav-button {
+  background-color: #00CED1;
+  color:#FFC0CB;
+  text-shadow: 2px 2px 0 #FFFFFF, /* White outline */
+  4px 4px 5px #0000FF; /* Blue text shadow */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  position: fixed; /* Fixed position */
+  bottom: 10px; /* Distance from the bottom */
+  left: 15px; /* Distance from the right */
+}
+.nav-button:hover {
+  background-color: #20B2AA; 
 }
 h1 {
   text-transform: uppercase;
@@ -117,3 +137,4 @@ h6 a {
     font-size: 10px;
   }
 }
+
